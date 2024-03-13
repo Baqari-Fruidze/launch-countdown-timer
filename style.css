@@ -7,11 +7,80 @@ html {
   font-size: 62.5%;
 }
 body {
+  /* background: linear-gradient(
+    180deg,
+    #1d1e28 0.12%,
+    #261c2d 94.84%,
+    #261a2d 100%
+  ); */
+  padding: 14.2rem 2.4rem 4.8rem 2.4rem;
   font-family: "Red Hat Text", sans-serif;
   min-height: 100vh;
-  background: #1d1e28;
-  background-image: url(./images/pattern-hills.svg), url(./images/bg-stars.svg);
+  /* background: #1d1e28; */
+  background-image: url(./images/pattern-hills.svg), url(./images/bg-stars.svg),
+    linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100%;
+}
+.header-class {
+  margin-bottom: 5.4rem;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.136px;
+  text-transform: uppercase;
+}
+.clock-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-bottom: 25.9rem;
+}
+.icosn-container {
+  display: flex;
+}
+.con {
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  border-radius: 0px 0px 4px 4px;
+  /* opacity: 0.1506; */
+  display: flex;
+  flex-direction: column;
+}
+.inside {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #fb5e84;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 71px; /* 197.222% */
+  letter-spacing: -1.08px;
+}
+.outside {
+  color: #8385a9;
+  text-align: center;
+  font-size: 7px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.959px;
+}
+.child {
+  width: 150%;
+  margin-bottom: 0.9rem;
+  background: linear-gradient(
+    180deg,
+    rgba(25, 26, 35, 1) 0%,
+    rgba(52, 54, 80, 1) 0%
+  );
+  .interested {
+    width: 120%;
+  }
 }
